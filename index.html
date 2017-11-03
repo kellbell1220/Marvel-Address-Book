@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Stark Industries</title>
+			<!--
+			Address Book
+			Filename: index.html
+
+			Author: Kelli Stasiak
+			Date: 10/20/2017
+			CIS-131
+			-->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+			<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+			<link rel="stylesheet" href="styles.css">
+			<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+	</head>
+  <body>
+		<div class="row">
+			<div id = "jarvis" class = "col-md-3 col-md-offset-4">
+				<img id="profileImage" src="img/jarvis2.png" width = "350" alt = "profile image" >
+			</div>
+
+			<div id = "list" class=".col-xs-6 .col-md-4, pull-right">
+				<h2>Address</h2>
+
+				<div id="captain">
+					<h3 id="captainName" onclick="showCaptain()">Steve Rogers</h3>
+					<div id="captainPanel">
+						<p>Phone: 555-741-4811</p>
+						<p>Email: Steve_Rogers@Sheild.gov</p>
+					</div>
+				</div>
+
+				<div id="blackWidow">
+					<h3 id = "widowName" onclick="showWidow()">Natasha Romanova</h3>
+					<div id="widowPanel">
+						<p>Phone: 555-741-4545</p>
+						<p>Email: N.Romanova@Sheild.gov</p>
+					</div>
+				</div>
+
+				<div id="fury">
+					<h3 id = "furyName" onclick="showFury()">Nick Fury</h3>
+					<div id="furyPanel">
+						<p>Phone: 555-741-0001</p>
+						<p>Email: Nick.Fury@Sheild.gov</p>
+					</div>
+				</div>
+
+				<div id="hawkEye">
+					<h3 id = "hawkName" onclick="showHawk()">Clint Barton</h3>
+					<div id="hawkPanel">
+						<p>Phone: 555-742-4177</p>
+						<p>Email: Clint.Barton@Sheild.gov</p>
+					</div>
+				</div>
+
+				<div id="hulk">
+					<h3 id = "hulkName" onclick="showHulk()">Bruce Banner</h3>
+					<div id="hulkPanel">
+						<p>Phone: 555-532-7233</p>
+						<p>Email: Banner.Bruce@yahoo.com</p>
+					</div>
+				</div>
+
+				<div id="thor">
+					<h3 id = "thorName" onclick="showThor()">Thor Son of Oden</h3>
+					<div id="thorPanel">
+						<p>Phone: 555-741-4811</p>
+						<p>Email: Asgardian-warrior@yahoo.com</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Local JavaScript -->
+		<script type="text/javascript" src="script.js"></script>
+		<!-- Javascript bootstrap-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+	</html>

@@ -1,9 +1,9 @@
-Marvel-Address-Book
+# Marvel-Address-Book
 
 
-Assignment Details
+## Assignment Details
 
-JQuery Address Book
+### JQuery Address Book
 
 Use the toggle class and anonymous call back functions to hide and display contacts in an address book. A click on the name should
 
@@ -12,3 +12,17 @@ Use the toggle class and anonymous call back functions to hide and display conta
 2) another click on the name hides the phone number and email address
 
 As always - appearance matters. Make sure the site looks POLISHED and PROFESSIONAL
+
+![alt text}(index.JPG)
+![alt text}(captain.JPG)
+![alt text}(blackWidow.JPG)
+![alt text}(fury.JPG)
+![alt text}(hawkEye.JPG)
+![alt text}(hulk.JPG)
+![alt text}(thor.JPG)
+
+
+
+
+
+

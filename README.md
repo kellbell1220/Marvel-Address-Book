@@ -13,13 +13,13 @@ Use the toggle class and anonymous call back functions to hide and display conta
 
 As always - appearance matters. Make sure the site looks POLISHED and PROFESSIONAL
 
-![alt text}(index.JPG)
-![alt text}(captain.JPG)
-![alt text}(blackWidow.JPG)
-![alt text}(fury.JPG)
-![alt text}(hawkEye.JPG)
-![alt text}(hulk.JPG)
-![alt text}(thor.JPG)
+![alt text](index.JPG)
+![alt text](captain.JPG)
+![alt text](blackWidow.JPG)
+![alt text](fury.JPG)
+![alt text](hawkEye.JPG)
+![alt text](hulk.JPG)
+![alt text](thor.JPG)
 
 
 
